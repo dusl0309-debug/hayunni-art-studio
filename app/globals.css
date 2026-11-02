@@ -13,3 +13,24 @@
 @media(max-width:800px){h1{font-size:44px}.heading p{font-size:20px}.hero .cutoutTitle{font-size:36px;letter-spacing:-1.5px}.editorialWord{font-size:76px;margin:28px -15px 32px 0}.gardenScribble{font-size:35px}.gardenSticker{font-size:18px}.photoCaption{font-size:11px}.hero small{font-size:15px}.primary{font-size:20px;padding:15px 18px}.sectionTitle h2,.panel .sectionTitle h2{font-size:29px}.card h3{font-size:20px}.card:nth-child(2) h3{font-size:23px}.card:nth-child(3) h3{font-size:26px}.cardLink{font-size:18px}.panel.offline h2{font-size:46px}.brand strong{font-size:24px}.brand>span:last-child{font-size:18px}}
 @media(max-width:520px){h1{font-size:34px;letter-spacing:-1px;line-height:1.35}.heading p{font-size:19px;max-width:310px}.editorialWord{font-size:91px;margin:30px -4px 32px 0}.editorialWord>span{font-size:.6em;letter-spacing:5px}.hero .cutoutTitle{font-size:40px;letter-spacing:-1px;margin:25px 0 20px}.hero .cutoutTitle em{font-size:.87em}.heroText{padding:30px 24px 18px}.hero small{font-size:15px}.hero p{font-size:12px}.gardenScribble{font-size:40px;top:62px;left:8%}.gardenSticker{font-size:21px}.photoCaption{font-size:10px;max-width:250px;white-space:nowrap}.card h3{font-size:27px}.card:nth-child(2) h3{font-size:32px}.card:nth-child(3) h3{font-size:35px}.cardLink{font-size:21px}.sectionTitle h2{font-size:29px}.panel .sectionTitle h2{font-size:27px;letter-spacing:-1px}.panel.offline h2{font-size:44px}.brand strong{font-size:23px}.brand>span:last-child{font-size:18px}.primary{font-size:23px}.plan h3{font-size:21px}}
 @media(max-width:520px){.shell{overflow-x:clip}.editorialWord i{font-size:1.12em}.vintageGarden{min-width:0}.photoCaption{max-width:240px}}
+/* Fresh daylight palette: quiet paper, playful pigments. */
+:root{--paper:#fbfcf6;--pink:#f4cbd4;--lime:#e7edac;--blue:#c7e3ec;--orange:#bd5a48;--ink:#294a43;--line:#294a4328}
+body{background-color:var(--paper);background-image:linear-gradient(#fbfcf6e8,#fbfcf6e8),url('/paper-grain.svg')}
+.heading p,.status,.privacy{color:#536e64}.brandIcon{background:#e8f1d7;border-color:#9db99e;color:#ae5848}
+nav button.active{color:#a74f40}nav button.active:after{border-color:#bd6654}nav button:not(.active):hover{background:#e8f2e5}
+.hero:before{background-color:#f5d1d9;background-image:linear-gradient(#f5d1d9c9,#f5d1d9c9),url('/paper-grain.svg')}
+.editorialWord{color:#b95242}.editorialWord i{-webkit-text-stroke-color:#b95242}.editorialWord:after{border-color:#bf6551}
+.hero .cutoutTitle em{color:#2d6153}.cutoutTitle em>span:first-child{background:#e9eeac}.hero p,.hero small{color:#465b50}
+.primary{background-color:#fffdf0;background-image:linear-gradient(#fffdf0e0,#fffdf0e0),url('/paper-grain.svg');box-shadow:2px 4px 4px #396c4a1a}.primary:after{border-color:#9ebf9f}
+.gardenPhoto{border-color:#fffdf1}.gardenPhoto>img{filter:saturate(.88) sepia(.05) contrast(.96) brightness(1.06)}.gardenPhoto:after{opacity:.14}
+.gardenSticker{background-color:#edf0a9;background-image:linear-gradient(#edf0a9bd,#edf0a9bd),url('/paper-grain.svg');color:#385942}
+.archiveLabel,.photoCaption{color:#4c6356}.ticker{border-color:#a7bd9e}.ticker b,.titleStar{color:#b96450}
+.card{background-color:#f8e6b5;background-image:linear-gradient(#f8e6b5d6,#f8e6b5d6),url('/paper-grain.svg');box-shadow:3px 5px 5px #45644b12}
+.card:nth-child(2){background-color:#c8e4e9;background-image:linear-gradient(#c8e4e9d6,#c8e4e9d6),url('/paper-grain.svg')}
+.card:nth-child(3){background-color:#dbecc7;background-image:linear-gradient(#dbecc7d6,#dbecc7d6),url('/paper-grain.svg')}
+.card:before{background:#fffef1c7;border-color:#c9c7a5}.cardLink{border-color:#6e957f66}
+.panel{background-color:#fffffa;background-image:linear-gradient(#fffffaeb,#fffffaeb),url('/paper-grain.svg');border-color:#a6bba343}
+.offline{background-color:#e7edb2;background-image:linear-gradient(#e7edb2d9,#e7edb2d9),url('/paper-grain.svg');box-shadow:3px 5px 5px #45644b12}.offlineFlower{color:#8fb7c4;opacity:.6}
+.coachWelcome{background:#edf4df}.coachWelcome>span{color:#c37c6f}.message{background:#e6f0de}.message.coach{background:#f8e4e8}
+form{background:#fffef9;border-color:#9db9a17d;box-shadow:none}form button{background:#e6edb6;border-left-color:#9db9a17d}form input::placeholder{color:#627969}
+.secondary,.confirm{background:#e8f2dc;border-color:#9fb69a80}.consent{background:#eef3db}.metrics b{color:#a95242}.materials{border-color:#9faf7b}.panel small{color:#526b59}.muted{color:#56715f}footer{border-color:#a2b59b}
